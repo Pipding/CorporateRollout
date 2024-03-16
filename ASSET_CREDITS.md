@@ -1,0 +1,2 @@
+Crouch.FBX: The Real Unreal ([Youtube](https://www.youtube.com/watch?v=0DQJkzLqCLk)) *Note:* Unclear whether this is original work. Should be replaced later
+CrouchWalk.FBX: The Real Unreal ([Youtube](https://www.youtube.com/watch?v=0DQJkzLqCLk)) *Note:* Unclear whether this is original work. Should be replaced later
