@@ -1,3 +1,17 @@
+# 2024-03-17
+Level generation was the focus today. For endless runner level generation I've been referencing a [tutorial series from the Unreal Engine Youtube channel](https://www.youtube.com/watch?v=yS-yQfo0lc0&list=PLZlv_N0_O1gbY4FN8pZuEPVC9PzQThNn1&index=2). This lays out a good method for generating an infinite level based on tiles with obstacles on it. It doesn't match my game exactly but it's close enough to be very useful. The gist is;
+- Create a blueprint for one tile of your level
+    - In that blueprint, place a non-rendered object (e.g. an `Arrow`) to mark where the next tile should spawn
+- In your level blueprint spawn a number of tiles and after spawning each one, track where the next one goes (by checking the aforementioned `Arrow` component) in a local variable
+- Add a trigger volume at the end of each tile. When the player passes through this trigger, spawn a new tile and destroy the one they just left
+
+And there you have it, an infinitely spawning straight line. Obstacles are also spawned using a non-rendered component (more `Arrows`).
+
+I also added a countdown timer so the game doesn't start immediately. This will allow the player to get ready after pressing the `Play` button from the main menu. Depending on how much time is left at the end of the project, it might also be enough time to play a little animation or do a panning shot with the camera.
+
+In addition to this I also started working on the main character model. For this I'm following a [tutorial by Thomas Potter on Youtube](https://www.youtube.com/watch?v=AVkXy62V77E) but the result from this tutorial isn't a finished model so there'll be a lot of detail to add afterward.
+
+
 # 2024-03-16
 The focus today was a lot of the basics. I wanted to get player movement into a decent state, so that consists of;
 - Running
