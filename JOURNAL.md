@@ -1,3 +1,6 @@
+# 2024-03-22
+Scoring was already in the game but never surfaced. Today I added some UI for scoring. The player's score shows up on-screen and when they gain points they're notified through a UI widget and SFX playing. The score UI isn't final yet, but it's good enough for now. There'll be more revisions later when the lose condition is added. At that point, I'll need to start tracking high scores and allow the user to restart the game.
+
 # 2024-03-17
 Level generation was the focus today. For endless runner level generation I've been referencing a [tutorial series from the Unreal Engine Youtube channel](https://www.youtube.com/watch?v=yS-yQfo0lc0&list=PLZlv_N0_O1gbY4FN8pZuEPVC9PzQThNn1&index=2). This lays out a good method for generating an infinite level based on tiles with obstacles on it. It doesn't match my game exactly but it's close enough to be very useful. The gist is;
 - Create a blueprint for one tile of your level
