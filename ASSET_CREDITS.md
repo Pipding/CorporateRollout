@@ -12,6 +12,7 @@
 | Asset Name | Source | Notes |
 |------------|--------|-------|
 | Player jump SFX | [D-Ryro on freesound.org](https://freesound.org/people/D-Ryro/sounds/674341/) | |
+| ObstacleDodgedSFX | [CJspellsfish on freesound.org](https://freesound.org/people/CJspellsfish/sounds/676402/) | |
 
 ## Music
 | Asset Name | Source | Notes |
