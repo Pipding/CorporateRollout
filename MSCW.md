@@ -36,6 +36,7 @@
 ## Could
 
 ## Would
+- [ ] Add more dimension to running animations by having the character play different animations depending on how close the boulder is
 
 
 # UI
