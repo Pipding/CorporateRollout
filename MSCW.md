@@ -2,6 +2,7 @@
 ## Must
 - [ ] Improve ducking mechanic
 - [ ] Update obstacle blueprints to spawn different models
+- [ ] Fix bug where jumping twice in quick succession plays the hard-fall animation
 
 
 ## Should
@@ -45,8 +46,11 @@
 - [ ] Display high-score at all times (if available)
 
 ## Should
+- [ ] Refactor all UI widgets to be managed through a central UIManager
+
 ## Could
 ## Would
+- [ ] Update the main menu so it's a 3D scene and the game UI is displayed on an in-game computer monitor
 
 
 # SFX
@@ -56,6 +60,7 @@
 
 ## Should
 - [ ] Play sound effect while powerup is active
+- [ ] Add SFX to the 3-2-1 countdown at the start of the game
 
 ## Could
 
