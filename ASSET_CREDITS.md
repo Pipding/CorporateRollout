@@ -16,6 +16,8 @@
 | Player grunt SFX              | [bennychico11 on freesound.org](https://freesound.org/people/bennychico11/sounds/80438/)                                                                  |                                                           |
 | Main menu background noise    | [qubodup on freesound.org](https://freesound.org/people/qubodup/sounds/211945/)                                                                           |                                                           |
 | Wall destruction SFX          | [NeoSpica](https://freesound.org/people/NeoSpica/sounds/512246/) and [scampsie](https://freesound.org/people/scampsie/sounds/417091/) on freesound.org    | SFX created by combining 2 sounds together using Audacity |
+| Powerup activation SFX        | [jalastram on freesound.org](https://freesound.org/people/jalastram/sounds/317813/)                                                                       |                                                           |
+| Powerup collect SFX           | [jivatma07 on freesound.org](https://freesound.org/people/jivatma07/sounds/173858/)                                                                       |                                                           |
 
 ## Music
 | Asset Name | Source | Notes |
