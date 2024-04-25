@@ -2,7 +2,7 @@
 ## Must
 - [ ] Improve ducking mechanic
 - [ ] Update obstacle blueprints to spawn different models
-- [ ] Fix bug where jumping twice in quick succession plays the hard-fall animation
+- [x] Fix bug where jumping twice in quick succession plays the hard-fall animation
 
 
 ## Should
@@ -10,6 +10,7 @@
 - [ ] Inflate scores
 
 ## Could
+- [ ] Make all in-world props destructible through Unreal Engine's Chaos system
 ## Would
 - [ ] Update level generation to add corners instead of being linear
 
@@ -28,7 +29,7 @@
 # Art
 ## Must
 - [ ] Complete all assets in the [Corporate Rollout assets spreadsheet](https://docs.google.com/spreadsheets/d/191MOwSGsKXqwEgvzihiEf_zCXeHrzPd34X6nVXWNiSo/edit#gid=0)
-- [ ] Update the player character idle animation to include glancing around nervously
+- [x] Update the player character idle animation to include glancing around nervously
 - [ ] Add facial expressions to player character
 
 ## Should
@@ -41,10 +42,10 @@
 
 # UI
 ## Must
-- [ ] Replace placeholder main menu graphics
+- [x] Replace placeholder main menu graphics
 - [ ] Replace placeholder game over graphics
-- [ ] Create in-game UI for powerups
-- [ ] Display high-score at all times (if available)
+- [x] Create in-game UI for powerups
+- [ ] Update score UI to display high score at all times
 
 ## Should
 - [ ] Refactor all UI widgets to be managed through a central UIManager
@@ -60,8 +61,8 @@
 - [ ] Add destruction SFX to props
 
 ## Should
-- [ ] Play sound effect while powerup is active
-- [ ] Add SFX to the 3-2-1 countdown at the start of the game
+- [x] Play sound effect while powerup is active
+- [x] Add SFX to the 3-2-1 countdown at the start of the game
 
 ## Could
 
