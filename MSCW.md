@@ -1,18 +1,20 @@
 # Gameplay
 ## Must
-- [ ] Improve ducking mechanic
 - [ ] Update obstacle blueprints to spawn different models
 - [x] Fix bug where jumping twice in quick succession plays the hard-fall animation
 
 
 ## Should
 - [ ] Add obstacle warning icons
-- [ ] Inflate scores
+- [x] Inflate scores
 
 ## Could
 - [ ] Make all in-world props destructible through Unreal Engine's Chaos system
+
 ## Would
 - [ ] Update level generation to add corners instead of being linear
+- [ ] ~Improve ducking mechanic~
+    - Ducking still slows the player down but the player runs faster & the boulder is slower. This makes the player more able to outrun the boulder, so it feels a little more balanced. User testing will provide more information on whether ducking still feels like a hinderance, but my suspicion is that players will be more annoyed by obstacles than ducking
 
 
 # Code
@@ -28,7 +30,7 @@
 
 # Art
 ## Must
-- [ ] Complete all assets in the [Corporate Rollout assets spreadsheet](https://docs.google.com/spreadsheets/d/191MOwSGsKXqwEgvzihiEf_zCXeHrzPd34X6nVXWNiSo/edit#gid=0)
+- [x] Complete all assets in the [Corporate Rollout assets spreadsheet](https://docs.google.com/spreadsheets/d/191MOwSGsKXqwEgvzihiEf_zCXeHrzPd34X6nVXWNiSo/edit#gid=0)
 - [x] Update the player character idle animation to include glancing around nervously
 - [ ] Add facial expressions to player character
 
@@ -43,9 +45,9 @@
 # UI
 ## Must
 - [x] Replace placeholder main menu graphics
-- [ ] Replace placeholder game over graphics
+- [x] Replace placeholder game over graphics
 - [x] Create in-game UI for powerups
-- [ ] Update score UI to display high score at all times
+- [x] Update score UI to display high score at all times
 
 ## Should
 - [ ] Refactor all UI widgets to be managed through a central UIManager
@@ -71,6 +73,8 @@
 
 # Music
 ## Must
+- [ ] Loop background music
+
 ## Should
 ## Could
 ## Would
