@@ -1,6 +1,6 @@
 # Gameplay
 ## Must
-- [ ] Update obstacle blueprints to spawn different models
+- [x] Update obstacle blueprints to spawn different models
 - [x] Fix bug where jumping twice in quick succession plays the hard-fall animation
 
 
@@ -9,7 +9,7 @@
 - [x] Inflate scores
 
 ## Could
-- [ ] Make all in-world props destructible through Unreal Engine's Chaos system
+- [x] Make all in-world props destructible through Unreal Engine's Chaos system
 
 ## Would
 - [ ] Update level generation to add corners instead of being linear
@@ -59,8 +59,8 @@
 
 # SFX
 ## Must
-- [ ] Improve boulder SFX
-- [ ] Add destruction SFX to props
+- [x] Improve boulder SFX
+- [x] Add destruction SFX to props
 
 ## Should
 - [x] Play sound effect while powerup is active
@@ -73,7 +73,7 @@
 
 # Music
 ## Must
-- [ ] Loop background music
+- [x] Loop background music
 
 ## Should
 ## Could
